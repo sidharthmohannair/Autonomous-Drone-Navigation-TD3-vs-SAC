@@ -30,36 +30,36 @@ Autonomous-Drone-Navigation-TD3-vs-SAC/
 
 ### Prerequisites
 
-#### Operating System
+#### 1. Operating System
 - Ubuntu 22.04
 
-#### Development Tools
+#### 2. Development Tools
 - Git
 - Python 3.8+
 - pip (Python package installer)
 
-#### Robotics Middleware
+#### 3. Robotics Middleware
 - ROS2 Humble
 
-#### Simulation Environment
+#### 4. Simulation Environment
 - Gazebo (compatible with ROS2 Humble, typically Gazebo 11 or newer)
 
-#### Drone Firmware and Control
+#### 5. Drone Firmware and Control
 - ArduPilot
 
-#### Flight Controller
+#### 6. Flight Controller
 - Cube Orange
 
-#### Companion Computer
+#### 7. Companion Computer
 - Raspberry Pi 5
 
-#### Communication Interface
+#### 8. Communication Interface
 - MAVROS
 
-#### Ground Control Software
+#### 9. Ground Control Software
 - QGroundControl (QGC)
 
-#### Python Libraries
+#### 10. Python Libraries
 - NumPy
 - Stable Baselines3
 - Gym
@@ -67,7 +67,7 @@ Autonomous-Drone-Navigation-TD3-vs-SAC/
 - pandas (for data analysis)
 - Jupyter Notebook (for interactive development)
 
-#### Additional Tools
+#### 11. Additional Tools
 - Colcon (ROS2 build tool)
 - Wget (for downloading dependencies)
 - curl (for downloading dependencies)
