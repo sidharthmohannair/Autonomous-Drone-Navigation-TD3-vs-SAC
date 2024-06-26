@@ -6,20 +6,21 @@ This project aims to develop and compare the performance of Twin Delayed DDPG (T
 ## Project Structure
 ```
 Autonomous-Drone-Navigation-TD3-vs-SAC/
-├── data/
-├── docs/
-├── envs/
-├── models/
-├── notebooks/
-├── scripts/
-│   ├── td3/
-│   ├── sac/
-├── src/
-├── tests/
-├── README.md
-├── LICENSE
-└── .gitignore
+├── data/                  # Data collected during simulations
+├── docs/                  # Documentation and project reports
+├── envs/                  # Gazebo environment files and configurations
+├── models/                # Trained DRL models (PPO and SAC)
+├── notebooks/             # Jupyter notebooks for analysis
+├── scripts/               # Python scripts for training and evaluation
+│   ├── td3/               # PPO related scripts
+│   ├── sac/               # SAC related scripts
+├── src/                   # Source code for ROS packages and other implementations
+├── tests/                 # Test scripts and validation cases
+├── README.md              # Project overview and setup instructions
+├── LICENSE                # License information
+└── .gitignore             # Files and directories to ignore in git
 ```
+
 
 ## Setup Instructions
 
