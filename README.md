@@ -29,11 +29,48 @@ Autonomous-Drone-Navigation-TD3-vs-SAC/
 ## Setup Instructions
 
 ### Prerequisites
+
+#### Operating System
 - Ubuntu 22.04
-- ROS2 Humble
-- Gazebo
-- MAVROS
+
+#### Development Tools
+- Git
 - Python 3.8+
+- pip (Python package installer)
+
+#### Robotics Middleware
+- ROS2 Humble
+
+#### Simulation Environment
+- Gazebo (compatible with ROS2 Humble, typically Gazebo 11 or newer)
+
+#### Drone Firmware and Control
+- ArduPilot
+
+#### Flight Controller
+- Cube Orange
+
+#### Companion Computer
+- Raspberry Pi 5
+
+#### Communication Interface
+- MAVROS
+
+#### Ground Control Software
+- QGroundControl (QGC)
+
+#### Python Libraries
+- NumPy
+- Stable Baselines3
+- Gym
+- Matplotlib (for plotting and visualization)
+- pandas (for data analysis)
+- Jupyter Notebook (for interactive development)
+
+#### Additional Tools
+- Colcon (ROS2 build tool)
+- Wget (for downloading dependencies)
+- curl (for downloading dependencies)
 
 ### Installation Steps
 
@@ -46,7 +83,14 @@ Autonomous-Drone-Navigation-TD3-vs-SAC/
 3. **Install MAVROS**
 
 
-4. **Clone and Set Up PX4 Simulation Environment**
+4. **Clone and Set Up ArduPilot with Gazebo for Simulation**
+
+5. **Set Up the Environment for Gazebo Models and Plugins**
+
+6. **Install Python Libraries**
+
+7. **Install QGroundControl**
+
 
 ## Running the Simulation
 
