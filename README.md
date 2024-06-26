@@ -76,7 +76,7 @@ Please see the  [CONTRIBUTING.md](/docs/contributing.md) file for guidelines on 
 
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](/LICENSE).
 
 ## Contact
 For any questions or issues, please open an issue on the GitHub repository or contact the project maintainer.
