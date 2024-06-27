@@ -1,0 +1,26 @@
+[ 30%] Built target ping
+[ 60%] Built target pong
+[100%] Built target ping_pong
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml

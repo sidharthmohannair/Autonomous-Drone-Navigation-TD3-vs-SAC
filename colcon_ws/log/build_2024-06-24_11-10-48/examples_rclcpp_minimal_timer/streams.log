@@ -1,0 +1,29 @@
+[0.026s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_minimal_timer -- -j12 -l12
+[0.206s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[0.211s] [ 50%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[6.673s] [100%] [32m[1mLinking CXX executable timer_member_function[0m
+[6.675s] [100%] [32m[1mLinking CXX executable timer_lambda[0m
+[6.949s] [100%] Built target timer_lambda
+[6.951s] [100%] Built target timer_member_function
+[6.973s] Invoked command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_minimal_timer -- -j12 -l12
+[7.012s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/richu/colcon_ws/build/examples_rclcpp_minimal_timer
+[7.026s] -- Install configuration: ""
+[7.026s] -- Execute custom install script
+[7.027s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[7.044s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[7.063s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[7.082s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[7.098s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[7.117s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[7.135s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[7.153s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[7.172s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[7.191s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[7.211s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[7.233s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[7.252s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[7.274s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[7.298s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[7.318s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[7.342s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[7.373s] Invoked command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/richu/colcon_ws/build/examples_rclcpp_minimal_timer

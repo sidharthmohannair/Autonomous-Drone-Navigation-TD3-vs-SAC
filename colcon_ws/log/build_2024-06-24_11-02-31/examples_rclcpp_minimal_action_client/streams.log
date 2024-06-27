@@ -1,0 +1,44 @@
+[0.030s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/richu/colcon_ws/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client
+[0.239s] -- The C compiler identification is GNU 13.2.0
+[0.410s] -- The CXX compiler identification is GNU 13.2.0
+[0.434s] -- Detecting C compiler ABI info
+[0.590s] -- Detecting C compiler ABI info - done
+[0.601s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.602s] -- Detecting C compile features
+[0.603s] -- Detecting C compile features - done
+[0.614s] -- Detecting CXX compiler ABI info
+[0.786s] -- Detecting CXX compiler ABI info - done
+[0.800s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.800s] -- Detecting CXX compile features
+[0.804s] -- Detecting CXX compile features - done
+[0.806s] -- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.044s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.157s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.193s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.241s] -- Found rosidl_generator_c: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.259s] -- Found rosidl_generator_cpp: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.279s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.306s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.439s] -- Found rclcpp: 28.1.2 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.502s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.506s] -- Found rmw_fastrtps_cpp: 8.4.0 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.614s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.639s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.668s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.769s] -- Found rclcpp_action: 28.1.2 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.805s] -- Found ament_lint_auto: 0.17.0 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.979s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.980s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.981s] -- Configured cppcheck include dirs: 
+[1.981s] -- Configured cppcheck exclude dirs and/or files: 
+[1.982s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.982s] -- Configured cpplint exclude dirs and/or files: 
+[1.983s] -- Added test 'lint_cmake' to check CMake code style
+[1.984s] -- Added test 'uncrustify' to check C / C++ code style
+[1.984s] -- Configured uncrustify additional arguments: 
+[1.985s] -- Added test 'xmllint' to check XML markup files
+[1.987s] -- Configuring done (1.9s)
+[2.033s] -- Generating done (0.0s)
+[2.037s] -- Build files have been written to: /home/richu/colcon_ws/build/examples_rclcpp_minimal_action_client
+[2.079s] Invoked command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/richu/colcon_ws/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client
+[2.080s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_minimal_action_client -- -j12 -l12

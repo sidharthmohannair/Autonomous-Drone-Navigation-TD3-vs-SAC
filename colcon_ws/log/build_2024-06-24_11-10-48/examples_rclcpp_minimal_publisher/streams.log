@@ -1,0 +1,45 @@
+[0.005s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_minimal_publisher -- -j12 -l12
+[0.058s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[0.059s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[0.059s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[0.059s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[0.059s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[4.825s] [ 58%] [32m[1mLinking CXX executable publisher_lambda[0m
+[4.922s] [ 66%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[4.991s] [ 75%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[5.026s] [ 75%] Built target publisher_lambda
+[5.135s] [ 75%] Built target publisher_wait_for_all_acked
+[5.193s] [ 75%] Built target publisher_member_function_with_type_adapter
+[6.161s] [ 83%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[6.230s] [ 91%] [32m[1mLinking CXX executable publisher_member_function[0m
+[6.234s] [100%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[6.339s] [100%] Built target publisher_not_composable
+[6.396s] [100%] Built target publisher_member_function
+[6.402s] [100%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[6.412s] Invoked command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_minimal_publisher -- -j12 -l12
+[6.446s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/richu/colcon_ws/build/examples_rclcpp_minimal_publisher
+[6.453s] -- Install configuration: ""
+[6.454s] -- Execute custom install script
+[6.454s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[6.462s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[6.470s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[6.478s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[6.487s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[6.496s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[6.505s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[6.514s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[6.523s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[6.532s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[6.540s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[6.548s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[6.556s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[6.564s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[6.572s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[6.580s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[6.588s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[6.596s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[6.605s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[6.613s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[6.621s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[6.632s] Invoked command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/richu/colcon_ws/build/examples_rclcpp_minimal_publisher

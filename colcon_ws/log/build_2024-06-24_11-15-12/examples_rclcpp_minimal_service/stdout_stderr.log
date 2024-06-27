@@ -1,0 +1,19 @@
+[100%] Built target service_main
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+-- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml

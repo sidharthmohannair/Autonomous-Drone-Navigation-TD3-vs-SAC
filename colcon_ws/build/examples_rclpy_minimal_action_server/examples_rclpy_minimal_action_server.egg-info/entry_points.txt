@@ -1,0 +1,6 @@
+[console_scripts]
+server = examples_rclpy_minimal_action_server.server:main
+server_defer = examples_rclpy_minimal_action_server.server_defer:main
+server_not_composable = examples_rclpy_minimal_action_server.server_not_composable:main
+server_queue_goals = examples_rclpy_minimal_action_server.server_queue_goals:main
+server_single_goal = examples_rclpy_minimal_action_server.server_single_goal:main

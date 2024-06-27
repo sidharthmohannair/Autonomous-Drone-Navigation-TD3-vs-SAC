@@ -1,0 +1,40 @@
+[0.007s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_minimal_composition -- -j12 -l12
+[0.064s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[0.064s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[9.327s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[9.558s] [ 33%] Built target composition_nodes
+[9.577s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[9.577s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[9.577s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[14.772s] [ 77%] [32m[1mLinking CXX executable composition_composed[0m
+[14.784s] [ 88%] [32m[1mLinking CXX executable composition_subscriber[0m
+[15.399s] [100%] [32m[1mLinking CXX executable composition_publisher[0m
+[15.862s] [100%] Built target composition_composed
+[15.866s] [100%] Built target composition_subscriber
+[16.098s] [100%] Built target composition_publisher
+[16.149s] Invoked command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_minimal_composition -- -j12 -l12
+[16.291s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/richu/colcon_ws/build/examples_rclcpp_minimal_composition
+[16.321s] -- Install configuration: ""
+[16.324s] -- Execute custom install script
+[16.325s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[16.356s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[16.387s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[16.419s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[16.452s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[16.483s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[16.515s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[16.547s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[16.576s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[16.610s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[16.642s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[16.674s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[16.708s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[16.740s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[16.768s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[16.796s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[16.823s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[16.853s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[16.882s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[16.912s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[16.944s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[16.980s] Invoked command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/richu/colcon_ws/build/examples_rclcpp_minimal_composition

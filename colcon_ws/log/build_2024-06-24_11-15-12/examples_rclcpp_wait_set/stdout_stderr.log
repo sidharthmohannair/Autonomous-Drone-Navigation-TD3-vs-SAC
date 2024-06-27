@@ -1,0 +1,12 @@
+[  8%] Built target executor_random_order
+[ 16%] Built target wait_set_listener
+[ 25%] Built target listener
+[ 33%] Built target wait_set_topics_and_timer
+[ 41%] Built target static_wait_set
+[ 50%] Built target wait_set
+[ 58%] Built target thread_safe_wait_set
+[ 75%] Built target wait_set_talker
+[ 75%] Built target wait_set_random_order
+[ 83%] Built target talker
+[ 91%] Built target wait_set_topics_with_different_rates
+[100%] Built target wait_set_composed

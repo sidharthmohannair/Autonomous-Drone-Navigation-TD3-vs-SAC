@@ -1,0 +1,38 @@
+[0.698s] Invoking command in '/home/richu/colcon_ws/build/examples_rclpy_minimal_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(mavenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/richu/colcon_ws/build/examples_rclpy_minimal_service/prefix_override:/home/richu/colcon_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(mavenv) /home/richu/mavenv/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/richu/colcon_ws/build/examples_rclpy_minimal_service/build --no-deps symlink_data
+[0.913s] running develop
+[0.913s] /home/richu/mavenv/lib/python3.12/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.913s] !!
+[0.913s] 
+[0.913s]         ********************************************************************************
+[0.913s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.914s]         Instead, use pypa/build, pypa/installer or other
+[0.914s]         standards-based tools.
+[0.914s] 
+[0.914s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.914s]         ********************************************************************************
+[0.914s] 
+[0.914s] !!
+[0.914s]   easy_install.initialize_options(self)
+[1.020s] running egg_info
+[1.020s] creating examples_rclpy_minimal_service.egg-info
+[1.031s] writing examples_rclpy_minimal_service.egg-info/PKG-INFO
+[1.031s] writing dependency_links to examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[1.032s] writing entry points to examples_rclpy_minimal_service.egg-info/entry_points.txt
+[1.032s] writing requirements to examples_rclpy_minimal_service.egg-info/requires.txt
+[1.032s] writing top-level names to examples_rclpy_minimal_service.egg-info/top_level.txt
+[1.032s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[1.058s] reading manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[1.059s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[1.071s] running build_ext
+[1.071s] Creating /home/richu/colcon_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[1.072s] Installing service script to /home/richu/colcon_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[1.072s] Installing service_member_function script to /home/richu/colcon_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[1.072s] 
+[1.072s] Installed /home/richu/colcon_ws/build/examples_rclpy_minimal_service
+[1.072s] running symlink_data
+[1.072s] creating /home/richu/colcon_ws/install/examples_rclpy_minimal_service/share/ament_index
+[1.072s] creating /home/richu/colcon_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[1.072s] creating /home/richu/colcon_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[1.073s] symbolically linking /home/richu/colcon_ws/build/examples_rclpy_minimal_service/resource/examples_rclpy_minimal_service -> /home/richu/colcon_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[1.073s] symbolically linking /home/richu/colcon_ws/build/examples_rclpy_minimal_service/package.xml -> /home/richu/colcon_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[1.106s] Invoked command in '/home/richu/colcon_ws/build/examples_rclpy_minimal_service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(mavenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/richu/colcon_ws/build/examples_rclpy_minimal_service/prefix_override:/home/richu/colcon_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(mavenv) /home/richu/mavenv/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/richu/colcon_ws/build/examples_rclpy_minimal_service/build --no-deps symlink_data

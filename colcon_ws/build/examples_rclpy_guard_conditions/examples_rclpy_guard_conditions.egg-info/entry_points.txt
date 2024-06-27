@@ -1,0 +1,2 @@
+[console_scripts]
+trigger_guard_condition = examples_rclpy_guard_conditions.trigger_guard_condition:main

@@ -1,0 +1,8 @@
+source;share/examples_rclcpp_cbg_executor/hook/cmake_prefix_path.ps1
+source;share/examples_rclcpp_cbg_executor/hook/cmake_prefix_path.dsv
+source;share/examples_rclcpp_cbg_executor/hook/cmake_prefix_path.sh
+source;share/examples_rclcpp_cbg_executor/local_setup.bash
+source;share/examples_rclcpp_cbg_executor/local_setup.dsv
+source;share/examples_rclcpp_cbg_executor/local_setup.ps1
+source;share/examples_rclcpp_cbg_executor/local_setup.sh
+source;share/examples_rclcpp_cbg_executor/local_setup.zsh

@@ -1,0 +1,36 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable pong[0m
+[ 80%] Built target pong
+[ 90%] [32m[1mLinking CXX executable ping[0m
+[ 90%] Built target ping
+[100%] [32m[1mLinking CXX executable ping_pong[0m
+[100%] Built target ping_pong
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml

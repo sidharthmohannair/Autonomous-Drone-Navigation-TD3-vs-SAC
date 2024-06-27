@@ -1,0 +1,33 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable action_client_not_composable_with_feedback[0m
+[ 62%] Built target action_client_not_composable_with_feedback
+[ 75%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[ 75%] Built target action_client_not_composable_with_cancel
+[ 87%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[ 87%] Built target action_client_member_functions
+[100%] [32m[1mLinking CXX executable action_client_not_composable[0m
+[100%] Built target action_client_not_composable
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml

@@ -1,0 +1,37 @@
+[0.556s] Invoking command in '/home/richu/colcon_ws/build/examples_rclpy_pointcloud_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(mavenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/richu/colcon_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(mavenv) /home/richu/mavenv/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/richu/colcon_ws/build/examples_rclpy_pointcloud_publisher/build --no-deps symlink_data
+[0.762s] running develop
+[0.762s] /home/richu/mavenv/lib/python3.12/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.762s] !!
+[0.762s] 
+[0.762s]         ********************************************************************************
+[0.762s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.762s]         Instead, use pypa/build, pypa/installer or other
+[0.762s]         standards-based tools.
+[0.762s] 
+[0.762s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.762s]         ********************************************************************************
+[0.762s] 
+[0.762s] !!
+[0.763s]   easy_install.initialize_options(self)
+[0.866s] running egg_info
+[0.866s] creating examples_rclpy_pointcloud_publisher.egg-info
+[0.877s] writing examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[0.877s] writing dependency_links to examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[0.877s] writing entry points to examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[0.877s] writing requirements to examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[0.878s] writing top-level names to examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[0.878s] writing manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[0.904s] reading manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[0.905s] writing manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[0.917s] running build_ext
+[0.917s] Creating /home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages/examples-rclpy-pointcloud-publisher.egg-link (link to .)
+[0.917s] Installing pointcloud_publisher script to /home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[0.917s] 
+[0.917s] Installed /home/richu/colcon_ws/build/examples_rclpy_pointcloud_publisher
+[0.918s] running symlink_data
+[0.918s] creating /home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index
+[0.918s] creating /home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index
+[0.918s] creating /home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[0.918s] symbolically linking /home/richu/colcon_ws/build/examples_rclpy_pointcloud_publisher/resource/examples_rclpy_pointcloud_publisher -> /home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[0.918s] symbolically linking /home/richu/colcon_ws/build/examples_rclpy_pointcloud_publisher/package.xml -> /home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/share/examples_rclpy_pointcloud_publisher
+[0.945s] Invoked command in '/home/richu/colcon_ws/build/examples_rclpy_pointcloud_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(mavenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/richu/colcon_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(mavenv) /home/richu/mavenv/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/richu/colcon_ws/build/examples_rclpy_pointcloud_publisher/build --no-deps symlink_data

@@ -1,0 +1,37 @@
+[0.009s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_wait_set -- -j12 -l12
+[0.100s] [ 20%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.100s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[0.101s] [ 20%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[0.101s] [ 20%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[0.101s] [ 25%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[0.101s] [ 29%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[0.101s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[0.101s] [ 37%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[0.102s] [ 37%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[0.102s] [ 41%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[0.102s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[8.498s] [ 50%] [32m[1mLinking CXX executable wait_set_listener[0m
+[8.516s] [ 54%] [32m[1mLinking CXX executable wait_set_talker[0m
+[8.765s] [ 54%] Built target wait_set_listener
+[8.778s] [ 54%] Built target wait_set_talker
+[10.788s] [ 58%] [32m[1mLinking CXX shared library libtalker.so[0m
+[11.074s] [ 58%] Built target talker
+[13.918s] [ 62%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[14.201s] [ 62%] Built target wait_set_topics_with_different_rates
+[14.414s] [ 66%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[14.636s] [ 70%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[14.719s] [ 70%] Built target wait_set_topics_and_timer
+[14.960s] [ 70%] Built target thread_safe_wait_set
+[15.013s] [ 75%] [32m[1mLinking CXX executable wait_set[0m
+[15.274s] [ 79%] [32m[1mLinking CXX executable static_wait_set[0m
+[15.319s] [ 83%] [32m[1mLinking CXX executable executor_random_order[0m
+[15.324s] [ 83%] Built target wait_set
+[15.552s] [ 83%] Built target static_wait_set
+[15.578s] [ 83%] Built target executor_random_order
+[15.895s] [ 87%] [32m[1mLinking CXX shared library liblistener.so[0m
+[16.012s] [ 91%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[16.138s] [ 91%] Built target listener
+[16.159s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[16.251s] [ 95%] Built target wait_set_random_order
+[18.839s] [100%] [32m[1mLinking CXX executable wait_set_composed[0m
+[18.997s] [100%] Built target wait_set_composed

@@ -1,0 +1,64 @@
+[  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[ 54%] Built target time_triggered_wait_set_subscriber
+[ 58%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[ 66%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[ 66%] Built target static_wait_set_subscriber
+[ 66%] Built target wait_set_subscriber
+[ 70%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[ 75%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[ 79%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[ 83%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[ 83%] Built target subscriber_content_filtering
+[ 87%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[ 87%] Built target subscriber_lambda
+[ 87%] Built target subscriber_not_composable
+[ 87%] Built target subscriber_member_function
+[ 91%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[ 91%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[ 95%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[ 95%] Built target subscriber_member_function_with_topic_statistics
+[ 95%] Built target subscriber_member_function_with_type_adapter
+[100%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[100%] Built target wait_set_subscriber_library
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml

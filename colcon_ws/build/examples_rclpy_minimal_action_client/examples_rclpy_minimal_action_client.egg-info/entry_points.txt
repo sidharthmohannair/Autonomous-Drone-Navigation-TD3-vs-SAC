@@ -1,0 +1,5 @@
+[console_scripts]
+client = examples_rclpy_minimal_action_client.client:main
+client_asyncio = examples_rclpy_minimal_action_client.client_asyncio:main
+client_cancel = examples_rclpy_minimal_action_client.client_cancel:main
+client_not_composable = examples_rclpy_minimal_action_client.client_not_composable:main

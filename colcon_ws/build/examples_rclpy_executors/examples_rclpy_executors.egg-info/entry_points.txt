@@ -1,0 +1,7 @@
+[console_scripts]
+callback_group = examples_rclpy_executors.callback_group:main
+composed = examples_rclpy_executors.composed:main
+custom_callback_group = examples_rclpy_executors.custom_callback_group:main
+custom_executor = examples_rclpy_executors.custom_executor:main
+listener = examples_rclpy_executors.listener:main
+talker = examples_rclpy_executors.talker:main

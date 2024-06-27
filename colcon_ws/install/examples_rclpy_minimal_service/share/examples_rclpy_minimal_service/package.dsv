@@ -1,0 +1,9 @@
+source;share/examples_rclpy_minimal_service/hook/pythonpath.ps1
+source;share/examples_rclpy_minimal_service/hook/pythonpath.dsv
+source;share/examples_rclpy_minimal_service/hook/pythonpath.sh
+source;share/examples_rclpy_minimal_service/hook/ament_prefix_path.ps1
+source;share/examples_rclpy_minimal_service/hook/ament_prefix_path.dsv
+source;share/examples_rclpy_minimal_service/hook/ament_prefix_path.sh
+source;../../build/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service/hook/pythonpath_develop.ps1
+source;../../build/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service/hook/pythonpath_develop.dsv
+source;../../build/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service/hook/pythonpath_develop.sh

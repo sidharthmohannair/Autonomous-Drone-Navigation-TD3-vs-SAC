@@ -1,0 +1,3 @@
+[console_scripts]
+service = examples_rclpy_minimal_service.service:main
+service_member_function = examples_rclpy_minimal_service.service_member_function:main

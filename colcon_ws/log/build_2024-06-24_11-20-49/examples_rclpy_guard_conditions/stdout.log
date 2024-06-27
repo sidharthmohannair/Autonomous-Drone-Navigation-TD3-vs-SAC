@@ -1,0 +1,17 @@
+running develop
+running egg_info
+creating examples_rclpy_guard_conditions.egg-info
+writing examples_rclpy_guard_conditions.egg-info/PKG-INFO
+writing dependency_links to examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+writing entry points to examples_rclpy_guard_conditions.egg-info/entry_points.txt
+writing requirements to examples_rclpy_guard_conditions.egg-info/requires.txt
+writing top-level names to examples_rclpy_guard_conditions.egg-info/top_level.txt
+writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+reading manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/richu/colcon_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+Installing trigger_guard_condition script to /home/richu/colcon_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+
+Installed /home/richu/colcon_ws/build/examples_rclpy_guard_conditions
+running symlink_data

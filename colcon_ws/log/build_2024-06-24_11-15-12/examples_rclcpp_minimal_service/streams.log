@@ -1,0 +1,23 @@
+[0.006s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(mavenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(mavenv) /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_minimal_service -- -j12 -l12
+[0.064s] [100%] Built target service_main
+[0.077s] Invoked command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(mavenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(mavenv) /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_minimal_service -- -j12 -l12
+[0.098s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(mavenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(mavenv) /usr/bin/cmake --install /home/richu/colcon_ws/build/examples_rclcpp_minimal_service
+[0.104s] -- Install configuration: ""
+[0.105s] -- Execute custom install script
+[0.105s] -- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[0.106s] -- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[0.106s] -- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[0.106s] -- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[0.106s] -- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[0.107s] -- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[0.107s] -- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[0.107s] -- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[0.107s] -- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[0.107s] -- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[0.107s] -- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[0.108s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[0.116s] -- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[0.116s] -- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[0.117s] -- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[0.117s] -- Up-to-date symlink: /home/richu/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
+[0.119s] Invoked command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(mavenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(mavenv) /usr/bin/cmake --install /home/richu/colcon_ws/build/examples_rclcpp_minimal_service

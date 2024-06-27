@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_minimal_client -- -j12 -l12
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[3.552s] [100%] [32m[1mLinking CXX executable client_main[0m
+[3.681s] [100%] Built target client_main
+[3.692s] Invoked command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_minimal_client -- -j12 -l12
+[3.714s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/richu/colcon_ws/build/examples_rclcpp_minimal_client
+[3.721s] -- Install configuration: ""
+[3.721s] -- Execute custom install script
+[3.722s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[3.731s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[3.740s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[3.749s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[3.756s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[3.763s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[3.772s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[3.780s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[3.788s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[3.797s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[3.806s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[3.815s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[3.826s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[3.836s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[3.847s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[3.856s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[3.866s] Invoked command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/richu/colcon_ws/build/examples_rclcpp_minimal_client

@@ -1,0 +1,29 @@
+[0.014s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_minimal_action_server -- -j12 -l12
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o[0m
+[3.764s] [ 75%] [32m[1mLinking CXX executable action_server_not_composable[0m
+[3.866s] [100%] [32m[1mLinking CXX executable action_server_member_functions[0m
+[3.901s] [100%] Built target action_server_not_composable
+[3.999s] [100%] Built target action_server_member_functions
+[4.009s] Invoked command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_minimal_action_server -- -j12 -l12
+[4.033s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/richu/colcon_ws/build/examples_rclcpp_minimal_action_server
+[4.040s] -- Install configuration: ""
+[4.041s] -- Execute custom install script
+[4.041s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[4.050s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[4.058s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[4.066s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[4.074s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[4.082s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[4.090s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[4.099s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[4.107s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[4.115s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[4.123s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[4.131s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[4.139s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[4.147s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[4.156s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[4.165s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[4.173s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[4.183s] Invoked command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/richu/colcon_ws/build/examples_rclcpp_minimal_action_server

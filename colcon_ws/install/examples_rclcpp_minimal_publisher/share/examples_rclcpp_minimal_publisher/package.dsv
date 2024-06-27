@@ -1,0 +1,8 @@
+source;share/examples_rclcpp_minimal_publisher/hook/cmake_prefix_path.ps1
+source;share/examples_rclcpp_minimal_publisher/hook/cmake_prefix_path.dsv
+source;share/examples_rclcpp_minimal_publisher/hook/cmake_prefix_path.sh
+source;share/examples_rclcpp_minimal_publisher/local_setup.bash
+source;share/examples_rclcpp_minimal_publisher/local_setup.dsv
+source;share/examples_rclcpp_minimal_publisher/local_setup.ps1
+source;share/examples_rclcpp_minimal_publisher/local_setup.sh
+source;share/examples_rclcpp_minimal_publisher/local_setup.zsh

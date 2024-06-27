@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating examples_rclpy_pointcloud_publisher.egg-info
+writing examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+writing dependency_links to examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+writing entry points to examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+writing requirements to examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+writing top-level names to examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+writing manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+reading manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+writing manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages/examples-rclpy-pointcloud-publisher.egg-link (link to .)
+Installing pointcloud_publisher script to /home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+
+Installed /home/richu/colcon_ws/build/examples_rclpy_pointcloud_publisher
+running symlink_data
+creating /home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index
+creating /home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index
+creating /home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+symbolically linking /home/richu/colcon_ws/build/examples_rclpy_pointcloud_publisher/resource/examples_rclpy_pointcloud_publisher -> /home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+symbolically linking /home/richu/colcon_ws/build/examples_rclpy_pointcloud_publisher/package.xml -> /home/richu/colcon_ws/install/examples_rclpy_pointcloud_publisher/share/examples_rclpy_pointcloud_publisher

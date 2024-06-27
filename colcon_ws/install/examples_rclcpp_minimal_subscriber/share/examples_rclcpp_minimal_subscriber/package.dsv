@@ -1,0 +1,11 @@
+source;share/examples_rclcpp_minimal_subscriber/hook/cmake_prefix_path.ps1
+source;share/examples_rclcpp_minimal_subscriber/hook/cmake_prefix_path.dsv
+source;share/examples_rclcpp_minimal_subscriber/hook/cmake_prefix_path.sh
+source;share/examples_rclcpp_minimal_subscriber/hook/ld_library_path_lib.ps1
+source;share/examples_rclcpp_minimal_subscriber/hook/ld_library_path_lib.dsv
+source;share/examples_rclcpp_minimal_subscriber/hook/ld_library_path_lib.sh
+source;share/examples_rclcpp_minimal_subscriber/local_setup.bash
+source;share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+source;share/examples_rclcpp_minimal_subscriber/local_setup.ps1
+source;share/examples_rclcpp_minimal_subscriber/local_setup.sh
+source;share/examples_rclcpp_minimal_subscriber/local_setup.zsh

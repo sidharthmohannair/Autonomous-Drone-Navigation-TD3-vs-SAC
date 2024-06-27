@@ -1,0 +1,68 @@
+[0.006s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[0.075s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[0.076s] [  8%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[0.076s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[0.076s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[0.076s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[0.077s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[0.077s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[0.077s] [ 33%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[0.077s] [ 37%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[0.082s] [ 45%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[0.082s] [ 45%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[0.084s] [ 50%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[6.786s] [ 54%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[7.165s] [ 54%] Built target time_triggered_wait_set_subscriber
+[7.181s] [ 58%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[7.445s] [ 62%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[7.524s] [ 66%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[7.735s] [ 66%] Built target static_wait_set_subscriber
+[7.796s] [ 66%] Built target wait_set_subscriber
+[14.307s] [ 70%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[14.534s] [ 75%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[14.717s] [ 79%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[14.798s] [ 83%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[14.873s] [ 83%] Built target subscriber_content_filtering
+[15.046s] [ 87%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[15.098s] [ 87%] Built target subscriber_lambda
+[15.224s] [ 87%] Built target subscriber_not_composable
+[15.249s] [ 87%] Built target subscriber_member_function
+[15.250s] [ 91%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[15.469s] [ 91%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[15.561s] [ 95%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[15.587s] [ 95%] Built target subscriber_member_function_with_topic_statistics
+[15.836s] [ 95%] Built target subscriber_member_function_with_type_adapter
+[19.814s] [100%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[20.201s] [100%] Built target wait_set_subscriber_library
+[20.228s] Invoked command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/richu/colcon_ws/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[20.289s] Invoking command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/richu/colcon_ws/build/examples_rclcpp_minimal_subscriber
+[20.297s] -- Install configuration: ""
+[20.297s] -- Execute custom install script
+[20.298s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[20.308s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[20.318s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[20.328s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[20.337s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[20.347s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[20.356s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[20.366s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[20.375s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[20.385s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[20.394s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[20.404s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[20.414s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[20.424s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[20.433s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[20.443s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[20.454s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[20.466s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[20.478s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[20.491s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[20.503s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[20.516s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[20.528s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[20.541s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[20.553s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[20.566s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[20.578s] -- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[20.594s] Invoked command in '/home/richu/colcon_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/richu/colcon_ws/build/examples_rclcpp_minimal_subscriber

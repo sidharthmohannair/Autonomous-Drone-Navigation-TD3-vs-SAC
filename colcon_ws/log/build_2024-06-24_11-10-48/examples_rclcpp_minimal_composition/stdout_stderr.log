@@ -1,0 +1,36 @@
+[ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[ 33%] Built target composition_nodes
+[ 66%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable composition_composed[0m
+[ 88%] [32m[1mLinking CXX executable composition_subscriber[0m
+[100%] [32m[1mLinking CXX executable composition_publisher[0m
+[100%] Built target composition_composed
+[100%] Built target composition_subscriber
+[100%] Built target composition_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+-- Symlinking: /home/richu/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml

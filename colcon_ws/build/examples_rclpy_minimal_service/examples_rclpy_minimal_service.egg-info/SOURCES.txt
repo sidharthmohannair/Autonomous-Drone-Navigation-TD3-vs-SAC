@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+examples_rclpy_minimal_service/__init__.py
+examples_rclpy_minimal_service/service.py
+examples_rclpy_minimal_service/service_member_function.py
+examples_rclpy_minimal_service.egg-info/PKG-INFO
+examples_rclpy_minimal_service.egg-info/SOURCES.txt
+examples_rclpy_minimal_service.egg-info/dependency_links.txt
+examples_rclpy_minimal_service.egg-info/entry_points.txt
+examples_rclpy_minimal_service.egg-info/requires.txt
+examples_rclpy_minimal_service.egg-info/top_level.txt
+examples_rclpy_minimal_service.egg-info/zip-safe
+resource/examples_rclpy_minimal_service

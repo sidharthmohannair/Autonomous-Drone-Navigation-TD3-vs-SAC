@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+launch_testing_examples/__init__.py
+launch_testing_examples/check_msgs_launch_test.py
+launch_testing_examples/check_multiple_nodes_launch_test.py
+launch_testing_examples/check_node_launch_test.py
+launch_testing_examples/hello_world_launch_test.py
+launch_testing_examples/record_rosbag_launch_test.py
+launch_testing_examples/set_param_launch_test.py
+launch_testing_examples.egg-info/PKG-INFO
+launch_testing_examples.egg-info/SOURCES.txt
+launch_testing_examples.egg-info/dependency_links.txt
+launch_testing_examples.egg-info/requires.txt
+launch_testing_examples.egg-info/top_level.txt
+launch_testing_examples.egg-info/zip-safe
+resource/launch_testing_examples
