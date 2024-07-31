@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>drl_x500</name>
+  <version>0.24.6</version>
+  <description>Dynamic world simulation with quadcopter control</description>
+  <maintainer email="riswanmp6@gmail.com">Muhammed Riswan</maintainer>
+  <license>Apache License 2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
