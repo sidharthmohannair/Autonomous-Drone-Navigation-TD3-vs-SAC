@@ -1,2 +1,0 @@
-[console_scripts]
-pointcloud_publisher = examples_rclpy_pointcloud_publisher.pointcloud_publisher:main
