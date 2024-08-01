@@ -1,0 +1,154 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='basement_tank_model'>
+    <static>true</static>
+    <link name='basement_tank'>
+      <inertial>
+        <mass>1</mass>
+      </inertial>
+
+      <collision name='bottom'>
+        <laser_retro>50</laser_retro>
+        <pose frame=''>18 18 0.02 0 -0 0</pose>  
+        <geometry>
+          <box>
+            <size>36 36 0.04</size>  
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual1'>
+        <laser_retro>50</laser_retro>
+        <pose frame=''>18 18 0.02 0 -0 0</pose> 
+        <geometry>
+          <box>
+            <size>36 36 0.04</size>  
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://usr/share/gz/gz-sim8/media/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='left_side'>
+        <laser_retro>50</laser_retro>
+        <pose frame=''>-0.04 18 6 0 -0 0</pose>  
+        <geometry>
+          <box>
+            <size>0.08 36 15</size> 
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual2'>
+        <laser_retro>50</laser_retro>
+        <pose frame=''>-0.04 18 6 0 -0 0</pose> 
+        <geometry>
+          <box>
+            <size>0.08 36 15</size>  
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://usr/share/gz/gz-sim8/media/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='right_side'>
+        <laser_retro>50</laser_retro>
+        <pose frame=''>36.04 18 6 0 -0 0</pose> 
+        <geometry>
+          <box>
+            <size>0.08 36 15</size> 
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual3'>
+        <laser_retro>50</laser_retro>
+        <pose frame=''>36.04 18 6 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.08 36 15</size>  
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://usr/share/gz/gz-sim8/media/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='front_side'>
+        <laser_retro>50</laser_retro>
+        <pose frame=''>18 -0.04 6 0 -0 0</pose>  
+        <geometry>
+          <box>
+            <size>36 0.08 15</size>  
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual4'>
+        <laser_retro>50</laser_retro>
+        <pose frame=''>18 -0.04 6 0 -0 0</pose> 
+        <geometry>
+          <box>
+            <size>36 0.08 15</size>  
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://usr/share/gz/gz-sim8/media/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='back_side'>
+        <laser_retro>50</laser_retro>
+        <pose frame=''>18 36.04 6 0 -0 0</pose>  
+        <geometry>
+          <box>
+            <size>36 0.08 15</size> 
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual5'>
+        <laser_retro>50</laser_retro>
+        <pose frame=''>18 36.04 6 0 -0 0</pose> 
+        <geometry>
+          <box>
+            <size>36 0.08 15</size>  
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://usr/share/gz/gz-sim8/media/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <!-- <link name="heightmap">
+      <collision name="heightmap_collision">
+        <geometry>
+          <heightmap>
+            <uri>materials/textures/Heightmap.png</uri>
+            <size>20 20 5</size>
+            <pos>0 0 0</pos>
+          </heightmap>
+        </geometry>
+      </collision>
+      <collision name="ground_plane_collision">
+        <geometry>
+          <plane>
+            <normal>0 0 0</normal> 
+          </plane>
+        </geometry>
+      </collision>      
+    </link> -->
+  </model>
+</sdf>
