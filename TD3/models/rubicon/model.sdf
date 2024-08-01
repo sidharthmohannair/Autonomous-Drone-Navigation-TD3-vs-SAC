@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version="1.6">
+  <model name="rubicon">
+    <static>true</static>
+    <link name="baselink">
+     
+      <collision name="rock02_collider">
+        <pose>-3.8605 -7.9415 2.392 1.81545 -0.43985 3.10705</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_rock02.dae</uri>
+            <scale>0.0216728 0.0216728 0.0216728</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="rock02_collider_2">
+        <pose>7.34 -2.315 1.97 1.68405 -0.0356351 0.59142</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_rock02.dae</uri>
+            <scale>0.0945241 0.0945241 0.0945241</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="rock02_collider_5">
+        <pose>0.2 -1.4205 1.7695 -2.8412 -0.337767 1.26221</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_rock02.dae</uri>
+            <scale>0.0400941 0.0400941 0.0400942</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="rock02_collider_7">
+        <pose>-5.7245 -3.919 3.602 0.23723 0.380008 1.00119</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_rock02.dae</uri>
+            <scale>0.107679 0.107679 0.107679</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="rock02_collider_8">
+        <pose>-7.693 -16.1405 3.5465 1.5708 0.0 -2.09542</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_rock02.dae</uri>
+            <scale>0.0505749 0.0505748 0.0505749</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="rock02_collider_9">
+        <pose>-0.153754 -1.16683 2.2055 -0.0124755 -0.0367017 2.0054</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_rock02.dae</uri>
+            <scale>0.0400941 0.0400941 0.0400941</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="rock02_collider_10">
+        <pose>-5.658 -11.2175 2.501 3.10902 -1.03246 -1.74131</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_rock02.dae</uri>
+            <scale>0.0166437 0.0166437 0.0166437</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="rock02_collider_11">
+        <pose>-4.2 -6.835 2.638 -0.14542 0.260616 0.89742</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_rock02.dae</uri>
+            <scale>0.101326 0.101326 0.101326</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="rock02_collider_12">
+        <pose>0.645 2.38 2.335 1.77942 -0.21404 0.640056</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_rock02.dae</uri>
+            <scale>0.101983 0.101983 0.101983</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="rock02_collider_14">
+        <pose>12.479 5.053 1.9365 1.74189 -0.319714 1.42001</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_rock02.dae</uri>
+            <scale>0.0484234 0.0484233 0.0484234</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="rock02_collider_15">
+        <pose>10.7632 -6.29833 3.6255 -2.4809 -0.966429 -0.0743775</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_rock02.dae</uri>
+            <scale>0.0569221 0.0569221 0.0569221</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="rock02_collider_16">
+        <pose>-2.3115 5.598 3.25847 1.5708 0.0 0.377698</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_rock02.dae</uri>
+            <scale>0.0896135 0.0896135 0.0896135</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="StumpCollider">
+        <pose>1.92377 -0.282372 1.303 0.055637 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_stump.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="StumpCollider_1">
+        <pose>16.1783 0.565505 3.4255 -0.0819955 -0.10321 0.00369487</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_stump.dae</uri>
+            <scale>0.40793 0.40793 0.40793</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="StumpCollider_2">
+        <pose>-9.42044 3.66836 3.849 0.0501296 0.0 2.83921</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_stump.dae</uri>
+            <scale>0.82435 0.82435 0.82435</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="StumpCollider_3">
+        <pose>1.7805 -1.1065 1.328 0.0300904 0.027656 -2.48551</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_stump.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="StumpCollider_4">
+        <pose>16.8455 2.9565 3.341 -0.133067 0.34272 3.02428</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_stump.dae</uri>
+            <scale>0.6 0.6 0.6</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="StumpCollider_5">
+        <pose>-1.529 -8.0655 2.295 0.160719 -0.0537634 0.0693369</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_stump.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="boundary">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/collider_boundary.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      
+      <visual name="Bush_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/rubicon.dae</uri>
+            <scale>1 1 1</scale>
+            <submesh>
+              <name>Bush</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Bush01_Albedo.png</albedo_map>
+              <roughness>0.9</roughness>
+              <metalness>0</metalness>
+            </metal>
+          </pbr>
+          <!-- fallback to script if no PBR support-->
+          <script>
+            <uri>materials/scripts/</uri>
+            <uri>materials/textures/</uri>
+            <name>UrbanTile/Bush01_Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    
+      <visual name="Rock02_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/rubicon.dae</uri>
+            <scale>1 1 1</scale>
+            <submesh>
+              <name>Rock02</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Rock02_Albedo.png</albedo_map>
+              <normal_map>materials/textures/Rock02_Normal.png</normal_map>
+              <roughness_map>materials/textures/Rock02_Roughness.png</roughness_map>
+              <metalness>0</metalness>
+            </metal>
+          </pbr>
+          <!-- fallback to script if no PBR support-->
+          <script>
+            <uri>materials/scripts/</uri>
+            <uri>materials/textures/</uri>
+            <name>UrbanTile/Rock02_Diffuse</name>
+          </script>
+        </material>
+      </visual>
+      
+      <visual name="Stump">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>meshes/rubicon.dae</uri>
+            <scale>1 1 1</scale>
+            <submesh>
+              <name>Stump</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Stump_Albedo.png</albedo_map>
+              <normal_map>materials/textures/Stump_Normal.png</normal_map>
+              <metalness>0</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="Roots">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>meshes/rubicon.dae</uri>
+            <scale>1 1 1</scale>
+            <submesh>
+              <name>Roots</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Roots_Albedo.png</albedo_map>
+              <normal_map>materials/textures/Roots_Normal.png</normal_map>
+              <metalness>0</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="Log">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>meshes/rubicon.dae</uri>
+            <scale>1 1 1</scale>
+            <submesh>
+              <name>Log</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Log_Albedo.png</albedo_map>
+              <normal_map>materials/textures/Log_Normal.png</normal_map>
+              <metalness>0</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+
+    </link>
+    <link name="hLight">
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.0 0.0 0.0 1</specular>
+      <intensity>1.5</intensity>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+    </link>
+    <!-- <link name="heightmap">
+      <collision name="heightmap_collision">
+        <geometry>
+          <heightmap>
+            <uri>materials/textures/Heightmap.png</uri>
+            <size>20 20 5</size>
+            <pos>0 0 0</pos>
+          </heightmap>
+        </geometry>
+      </collision>
+      <visual name="heightmap_visual">
+        <geometry>
+          <heightmap>
+            <use_terrain_paging>true</use_terrain_paging>
+            <texture>
+              <diffuse>materials/textures/TerrainRocky_Albedo.png</diffuse>
+              <normal>materials/textures/TerrainRocky_Normal.png</normal>
+              <size>5</size>
+            </texture>
+            <uri>materials/textures/Heightmap.png</uri>
+            <size>20 20 5</size>
+            <pos>0 0 0</pos>
+          </heightmap>
+        </geometry>
+      </visual>
+    </link> -->
+    <!-- <link name="heightmap">
+      <collision name="heightmap_collision">
+        <geometry>
+          <heightmap>
+            <uri>materials/textures/Heightmap.png</uri>
+            <size>20 20 5</size>  <pos>0 0 0</pos>
+          </heightmap>
+        </geometry>
+      </collision>
+      <visual name="heightmap_visual">
+        <geometry>
+          <heightmap>
+            <texture>
+              <diffuse>materials/textures/TerrainRocky_Albedo.png</diffuse>  <size>5</size>  </texture>
+            <uri>materials/textures/Heightmap.png</uri>
+            <size>20 20 5</size>  <pos>0 0 0</pos>
+          </heightmap>
+        </geometry>
+      </visual>
+    </link> -->
+    
+  </model>
+</sdf>
