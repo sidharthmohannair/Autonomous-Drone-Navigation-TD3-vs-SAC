@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version='1.9'>
+  <model name='meccanum'>
+      
+      <include>
+          <pose>-9.4 1.6 0 0 0 -0.5</pose>
+          <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mecanum lift</uri>
+      </include>
+
+
+      <!-- Moving Forward: w -->
+      <plugin filename="gz-sim-triggered-publisher-system"
+        name="gz::sim::systems::TriggeredPublisher">
+          <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+              <match field="data">87</match>
+          </input>
+          <output type="gz.msgs.Twist" topic="/model/Mecanum_lift/cmd_vel">
+                  linear: {x: 1.0, y: 0.0}, angular: {z: 0.0}
+          </output>
+      </plugin>
+
+      <!-- Moving Backward: x -->
+      <plugin filename="gz-sim-triggered-publisher-system"
+        name="gz::sim::systems::TriggeredPublisher">
+          <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+              <match field="data">88</match>
+          </input>
+          <output type="gz.msgs.Twist" topic="/model/Mecanum_lift/cmd_vel">
+                  linear: {x: -1.0, y: 0.0}, angular: {z: 0.0}
+          </output>
+      </plugin>
+
+      <!-- Moving right: d -->
+      <plugin filename="gz-sim-triggered-publisher-system"
+        name="gz::sim::systems::TriggeredPublisher">
+          <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+              <match field="data">68</match>
+          </input>
+          <output type="gz.msgs.Twist" topic="/model/Mecanum_lift/cmd_vel">
+                  linear: {x: 0.0, y: -1.0}, angular: {z: 0.0}
+          </output>
+      </plugin>
+
+      <!--Moving left: a -->
+      <plugin filename="gz-sim-triggered-publisher-system"
+        name="gz::sim::systems::TriggeredPublisher">
+          <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+              <match field="data">65</match>
+          </input>
+          <output type="gz.msgs.Twist" topic="/model/Mecanum_lift/cmd_vel">
+                  linear: {x: 0.0, y: 1.0}, angular: {z: 0.0}
+          </output>
+      </plugin>
+
+      <!-- Rotating right: e -->
+      <plugin filename="gz-sim-triggered-publisher-system"
+        name="gz::sim::systems::TriggeredPublisher">
+          <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+              <match field="data">69</match>
+          </input>
+          <output type="gz.msgs.Twist" topic="/model/Mecanum_lift/cmd_vel">
+                  linear: {x: 0.0, y: 0.0}, angular: {z: -1.0}
+          </output>
+      </plugin>
+
+      <!--Rotating left: q -->
+      <plugin filename="gz-sim-triggered-publisher-system"
+        name="gz::sim::systems::TriggeredPublisher">
+          <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+              <match field="data">81</match>
+          </input>
+          <output type="gz.msgs.Twist" topic="/model/Mecanum_lift/cmd_vel">
+                  linear: {x: 0.0, y: 0.0}, angular: {z: 1.0}
+          </output>
+      </plugin>
+
+      <!--Stop: s -->
+      <plugin filename="gz-sim-triggered-publisher-system"
+        name="gz::sim::systems::TriggeredPublisher">
+          <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+              <match field="data">83</match>
+          </input>
+          <output type="gz.msgs.Twist" topic="/model/Mecanum_lift/cmd_vel">
+                  linear: {x: 0.0, y: 0.0}, angular: {z: 0.0}
+          </output>
+      </plugin>
+      <!--IMU_sensor-->
+      <plugin filename="gz-sim-imu-system"
+          name="gz::sim::systems::Imu">
+      </plugin>
+      
+      <plugin
+      filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics">
+      </plugin>
+      
+      <plugin
+        filename="gz-sim-user-commands-system"
+        name="gz::sim::systems::UserCommands">
+      </plugin>
+      <plugin
+        filename="gz-sim-scene-broadcaster-system"
+        name="gz::sim::systems::SceneBroadcaster">
+      </plugin>
+      
+  </model>
+</sdf>
