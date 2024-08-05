@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version='1.9'>
+  <world name = "lakehouse_world">
+
+    <include>
+	    <name>harmonic</name>
+	    <uri>model://harmonic</uri>
+    </include>
+
+  </world>
+</sdf>

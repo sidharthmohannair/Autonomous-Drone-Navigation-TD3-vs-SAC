@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="simple_world">
+    <model name="ground">
+      <link name="body">
+        ...
+      </link>
+    </model>
+    <model name="box">
+      <pose>0 0 1 0 0 0</pose>
+      <link name="body">
+        ...
+      </link>
+    </model>
+    <model name="sphere">
+      <pose>10 0 2 0 0 0</pose>
+      <link name="body">
+        ...
+      </link>
+    </model>
+  </world>
+</sdf>
