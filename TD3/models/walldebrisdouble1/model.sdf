@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="walldebrisdouble1">
+    <static>true</static>
+    <link name="base_link">
+      <pose>0 3.5 0 0 0 0</pose>
+      <collision name="collision">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/walldebrisdouble.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name= "ConcreteRubble_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/walldebrisdouble.dae</uri>
+            <submesh>
+              <name>ConcreteRubble</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/ConcreteRubble_Albedo.jpg</albedo_map>
+              <normal_map>materials/textures/ConcreteRubble_Normal.jpg</normal_map>
+              <roughness_map>materials/textures/ConcreteRubble_Roughness.jpg</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name= "Rubble_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/walldebrisdouble.dae</uri>
+            <submesh>
+              <name>Rubble</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Rubble_Albedo.jpg</albedo_map>
+              <normal_map>materials/textures/Rubble_Normal.jpg</normal_map>
+              <roughness_map>materials/textures/Rubble_Roughness.jpg</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name= "ColumnH_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/walldebrisdouble.dae</uri>
+            <submesh>
+              <name>ColumnH</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/ColumnH_Albedo.jpg</albedo_map>
+              <normal_map>materials/textures/ColumnH_Normal.jpg</normal_map>
+              <metalness_map>materials/textures/ColumnH_Metalness.jpg</metalness_map>
+              <roughness_map>materials/textures/ColumnH_Roughness.jpg</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name= "Cable_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/walldebrisdouble.dae</uri>
+            <submesh>
+              <name>Cable</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Cable_Albedo.jpg</albedo_map>
+              <roughness_map>materials/textures/Cable_Roughness.jpg</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
