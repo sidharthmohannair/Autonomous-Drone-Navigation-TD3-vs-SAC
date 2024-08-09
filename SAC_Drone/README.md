@@ -1,7 +1,7 @@
 # Development of an Autonomous Drone Navigation System in a Simulated Environment Using ROS 2 Humble Hawksbill, Gazebo Harmonic, and ArduPilot
 
 ## Objective
-This project aims to develop and compare the performance of Twin Delayed DDPG (TD3) and Soft Actor-Critic (SAC) algorithms for autonomous drone navigation. The evaluation will focus on navigation efficiency, obstacle avoidance, and learning efficiency in simulated environments using ROS2 and Gazebo.
+The primary objective of this project is to develop a comprehensive autonomous drone navigation system by creating a simulated environment in Gazebo using ROS 2. This involves integrating ArduPilot with ROS 2 within the simulation to control and monitor the drone's flight dynamics and behavior. Additionally, the project aims to develop and execute scripts that command the drone to perform specific tasks, such as flying in predefined patterns like squares and circles within the simulated environment. 
 
 ## Project Overview
 
