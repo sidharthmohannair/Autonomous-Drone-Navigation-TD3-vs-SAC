@@ -1,4 +1,4 @@
-# Comparative Study of Twin Delayed DDPG (TD3) and Soft Actor-Critic (SAC) for Autonomous Drone Navigation
+# Development of a Simulated Environment Using ROS 2 Humble Hawksbill, Gazebo Harmonic, and ArduPilot for Autonomous Drone Navigation 
 
 ## Objective
 This project aims to develop and compare the performance of Twin Delayed DDPG (TD3) and Soft Actor-Critic (SAC) algorithms for autonomous drone navigation. The evaluation will focus on navigation efficiency, obstacle avoidance, and learning efficiency in simulated environments using ROS2 and Gazebo.
@@ -9,20 +9,23 @@ For a detailed overview of the project, including background information, method
 
 ## Project Structure
 ```
-Autonomous-Drone-Navigation-TD3-vs-SAC/
-├── data/                  # Data collected during simulations
-├── docs/                  # Documentation and project reports
-├── envs/                  # Gazebo environment files and configurations
-├── models/                # Trained DRL models (PPO and SAC)
-├── notebooks/             # Jupyter notebooks for analysis
-├── scripts/               # Python scripts for training and evaluation
-│   ├── td3/               # PPO related scripts
-│   ├── sac/               # SAC related scripts
-├── src/                   # Source code for ROS packages and other implementations
-├── tests/                 # Test scripts and validation cases
+ros2_humble_gz-sim/
+├── ros2_gz_pkg/
+│   ├── config/               # PPO related scripts
+│   ├── launch/ 
+│   ├── models/               # PPO related scripts
+│   ├── py_launch_example/ 
+│   ├── resource/               # PPO related scripts
+│   ├── rviz/ 
+│   ├── scripts/               # PPO related scripts
+│   ├── test/ 
+│   ├── worlds/               # PPO related scripts
+│   ├── LICENCE/
+│   ├── package.xml/               # PPO related scripts
+│   ├── setup.cfg/ 
+│   ├── setup.py/               # PPO related scripts                                 
 ├── README.md              # Project overview and setup instructions
-├── LICENSE                # License information
-└── .gitignore             # Files and directories to ignore in git
+            
 ```
 
 
@@ -104,19 +107,6 @@ Autonomous-Drone-Navigation-TD3-vs-SAC/
     ros2 launch mavros mavros.launch.py
     ```
 
-## Training and Evaluating Models
-
-### TD3 Algorithm
-1. **Train the TD3 Model**
-
-
-2. **Evaluate the TD3 Model**
-
-
-### SAC Algorithm
-1. **Train the SAC Model**
-
-2. **Evaluate the SAC Model**
 
 ## Contributing
 
