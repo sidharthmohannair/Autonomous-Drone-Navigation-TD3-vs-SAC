@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="challenge">
+    
+    <plugin
+      filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin
+      filename="gz-sim-sensors-system"
+      name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin
+      filename="gz-sim-user-commands-system"
+      name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin
+      filename="gz-sim-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+    <plugin
+      filename="gz-sim-imu-system"
+      name="gz::sim::systems::Imu">
+    </plugin>
+
+    <scene>
+      <ambient>.4 .4 .4</ambient>
+      <sky></sky>
+    </scene>
+    
+    <include>
+        <pose>-6.91 -0.18 5.87 0 0 0</pose>
+        <uri>model://x500_lidar</uri>
+    </include>
+
+    <include>
+        <pose>-5.83 -1.41 6.16 0 0 -3.1</pose>
+        <uri>model://iris_with_lidar</uri>
+    </include>
+
+    <include>
+      <pose>-5.82 -0.80 5.36 1.57 0 0</pose>
+      <uri>model://nist_maze_wall_120b</uri>
+    </include>
+
+    <include>
+      <pose>-6.87 0.38 5.28 1.57 0 0</pose>
+      <uri>model://nist_maze_wall_120c</uri>
+    </include>
+
+    <include>
+      <pose>-3.43 -0.13 3.586 0 -0.14 -1.43</pose>
+      <uri>model://nist_maze_wall_240</uri>
+    </include>
+
+    <include>
+      <pose>4 0.05 3.76 0 0 0</pose>
+      <uri>model://walldebrisdouble</uri>
+    </include>
+    
+    <!-- <include>
+      <pose>-4.75 9.67 4 0.03 0.02 -0.43</pose>
+      <uri>model://Mecanum lift</uri>
+    </include> -->
+    
+    <include>
+      <name>Rubicon</name>
+      <uri>model://rubicon</uri>
+    </include>
+
+    <include>
+      <name>Boundary</name>
+      <pose>-18 -18 0 0 0 0</pose>
+      <uri>model://basement_tank</uri>
+    </include>
+
+  </world>
+</sdf>

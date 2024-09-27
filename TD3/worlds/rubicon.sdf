@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="challenge">
+    
+    <scene>
+      <ambient>.4 .4 .4</ambient>
+      <sky></sky>
+    </scene>
+    
+    <!-- <include>
+        <pose>-2.51 0.05 3.76 0 0 0</pose>
+        <uri>model://x500_lidar</uri>
+    </include> -->
+
+    <include>
+        <pose>-3.51 0.05 3.76 0 0 0</pose>
+        <uri>model://iris_with_ardupilot</uri>
+    </include>
+
+    <include>
+      <pose>-3.1 -0.46 5.7 0 0.16 0</pose>
+      <uri>model://nist_maze_wall_120a</uri>
+    </include>
+
+    <!-- <include>
+      <pose>-3.12 1.74 6.31 1.37 0.16 0</pose>
+      <uri>model://nist_maze_wall_120b</uri>
+    </include>
+
+    <include>
+      <pose>-3.22 1.26 5.7 0 0.16 0</pose>
+      <uri>model://nist_maze_wall_120c</uri>
+    </include> -->
+
+
+    <include>
+      <pose>-3.43 -0.13 3.586 0 -0.14 -1.43</pose>
+      <uri>model://nist_maze_wall_240</uri>
+    </include>
+<!-- 
+    <include>
+      <pose>-3.49 1.73 3.586 0 -0.14 -1.43</pose>
+      <uri>model://nist_maze_wall_240a</uri>
+    </include>
+
+    <include>
+      <pose>-5.73 1.43 3.58 0 -0.14 -1.43</pose>
+      <uri>model://nist_maze_wall_240b</uri>
+    </include> -->
+
+    <include>
+      <pose>4 0.05 3.76 0 0 0</pose>
+      <uri>model://walldebrisdouble</uri>
+    </include>
+<!-- 
+    <include>
+      <pose>10.51 -6.93 4 0.03 0.02 -0.43</pose>
+      <uri>model://walldebrisdouble1</uri>
+    </include> -->
+<!-- 
+    <include>
+      <pose>-5.75 9.67 4 0.03 0.02 -0.43</pose>
+      <uri>model://walldebrisdouble2</uri>
+    </include> -->
+<!--     
+    <include>
+      <pose>-4.75 9.67 4 0.03 0.02 -0.43</pose>
+      <uri>model://Mecanum lift</uri>
+    </include>
+     -->
+    <include>
+      <name>Rubicon</name>
+      <uri>model://rubicon</uri>
+    </include>
+
+    <include>
+      <name>Boundary</name>
+      <pose>-18 -18 0 0 0 0</pose>
+      <uri>model://basement_tank</uri>
+    </include>
+
+  </world>
+</sdf>
