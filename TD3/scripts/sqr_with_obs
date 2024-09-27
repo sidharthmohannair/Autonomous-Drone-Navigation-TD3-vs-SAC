@@ -1,0 +1,165 @@
+import time
+from pymavlink import mavutil
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import LaserScan
+
+def wait_for_ack(master, command):
+    """ Wait for an ACK from the specified command. """
+    while True:
+        ack = master.recv_match(type='COMMAND_ACK', blocking=True)
+        if ack and ack.command == command:
+            return ack.result
+
+
+def set_rc_channel_pwm(channel_id, pwm=1500):
+    """
+    Sets the PWM value for a specific RC channel.
+
+    Args:
+        channel_id (int): The ID of the RC channel (1-18).
+        pwm (int, optional): The desired PWM value (1000-2000). Defaults to 1500 (neutral).
+    """
+
+    if channel_id < 1 or channel_id > 18:
+        print("Channel does not exist.")
+        return
+
+    # MAVLink 2 supports up to 18 channels:
+    # https://mavlink.io/en/messages/common.html#RC_CHANNELS_OVERRIDE
+    rc_channel_values = [1500 for _ in range(18)]  # Initialize all channels to neutral
+    rc_channel_values[channel_id - 1] = pwm       # Set the desired channel's PWM value
+
+    master.mav.rc_channels_override_send(
+        master.target_system,    # target_system
+        master.target_component, # target_component
+        *rc_channel_values)            # RC channel list, in microseconds.
+
+
+
+# Connect to the drone
+master = mavutil.mavlink_connection('udpin:127.0.0.1:14550')
+master.wait_heartbeat()
+
+# Switch to GUIDED mode
+master.mav.set_mode_send(
+    master.target_system,
+    mavutil.mavlink.MAV_MODE_FLAG_CUSTOM_MODE_ENABLED,
+    4  # GUIDED mode
+)
+print("Switching to GUIDED mode")
+
+# Arm the drone
+master.arducopter_arm()
+print("Arming motors")
+master.motors_armed_wait()
+print('Motors armed')
+
+# Takeoff to 15 meters
+master.mav.command_long_send(
+    master.target_system,
+    master.target_component,
+    mavutil.mavlink.MAV_CMD_NAV_TAKEOFF,
+    0, 0, 0, 0, 0, 0, 0, 15
+)
+print("Taking off to 15 meters")
+time.sleep(15)  # Wait for the drone to reach the altitude
+
+# Function to send the drone to a position (local coordinates)
+def goto_position_target_local_ned(master, north, east, down):
+    master.mav.set_position_target_local_ned_send(
+        0,       # time_boot_ms (not used)
+        master.target_system, master.target_component,
+        mavutil.mavlink.MAV_FRAME_LOCAL_NED,
+        0b0000111111111000, # Ignore everything except position
+        north, east, down, # x, y, z positions in meters
+        0, 0, 0, # x, y, z velocity in m/s
+        0, 0, 0, 0, 0)    # x, y, z acceleration and yaw/yaw_rate (not used)
+
+# ROS2 node to subscribe to lidar data
+class LidarSubscriber(Node):
+    def __init__(self):
+        super().__init__('lidar_subscriber')
+        self.subscription = self.create_subscription(
+            LaserScan,
+            '/lidar',
+            self.lidar_callback,
+            10
+        )
+        self.obstacle_detected = False
+        self.avoidance_direction = None  # None, 'left', or 'right'
+
+    def lidar_callback(self, msg):
+        # Assuming lidar is facing forward
+        front_distance = min(msg.ranges[300:340])  # Adjust indices if needed
+
+        # Define obstacle detection threshold (adjust as needed)
+        if front_distance < 5.0: 
+            self.obstacle_detected = True
+            # Determine avoidance direction based on surrounding distances
+            if min(msg.ranges[0:45]) < min(msg.ranges[315:360]):  
+                self.avoidance_direction = 'left'
+            else:
+                self.avoidance_direction = 'right'
+        else:
+            self.obstacle_detected = False
+            self.avoidance_direction = None
+
+# Create ROS2 node and spin in a separate thread
+rclpy.init()
+lidar_subscriber = LidarSubscriber()
+executor = rclpy.executors.SingleThreadedExecutor()
+executor.add_node(lidar_subscriber)
+
+# Fly in a square pattern (10 meters per side) with obstacle avoidance
+for i in range(1):
+    for direction in ['north', 'east', 'south', 'west']:
+        target_north = 10 if direction == 'north' else 0
+        target_east = 10 if direction == 'east' else 0
+
+        while True:
+            goto_position_target_local_ned(master, target_north, target_east, -15)
+            executor.spin_once(timeout_sec=0)  # Process lidar data
+
+            if lidar_subscriber.obstacle_detected:
+                print("Obstacle detected! Avoiding...")
+                if lidar_subscriber.avoidance_direction == 'left':
+                    # Turn left (adjust as needed)
+                    set_rc_channel_pwm(master, 4, 1400)  # Decrease yaw for left turn
+                    time.sleep(2)
+                    set_rc_channel_pwm(master, 4, 1500)  # Return to neutral
+                elif lidar_subscriber.avoidance_direction == 'right':
+                    # Turn right (adjust as needed)
+                    set_rc_channel_pwm(master, 4, 1600)  # Increase yaw for right turn
+                    time.sleep(2)
+                    set_rc_channel_pwm(master, 4, 1500)  # Return to neutral
+            else:
+                break  # Continue to the next side of the square
+
+# Return to Launch (RTL)
+master.mav.command_long_send(
+    master.target_system,
+    master.target_component,
+    mavutil.mavlink.MAV_CMD_NAV_RETURN_TO_LAUNCH,
+    0, 0, 0, 0, 0, 0, 0, 0
+)
+print("Returning to Launch (RTL)")
+time.sleep(20) 
+
+local_pos = master.recv_match(type='LOCAL_POSITION_NED', blocking=True, timeout=5)
+while local_pos.z < 0.2:
+    time.sleep(5)
+
+master.arducopter_disarm()  # Use the convenience function for disarming
+print("Disarming motors")
+master.mav.command_long_send(
+    master.target_system,
+    master.target_component,
+    mavutil.mavlink.MAV_CMD_COMPONENT_ARM_DISARM,
+    0,     # 0: disarm
+    21196,  # Magic number for FORCE_DISARM 
+    0, 0, 0, 0, 0, 0
+)
+
+
+print("Mission complete")
